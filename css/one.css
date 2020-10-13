@@ -1,0 +1,349 @@
+body{
+	background-color: green;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+	
+.col-lg-4{
+		float: left;
+		border:1px;
+	}
+	
+	.col-lg-4{
+		width: 33%;
+	}
+	.a {
+	border: 5px solid blue;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	.a > #sec1{
+	border: 2px solid red;
+	width: 100px;
+	float: right;
+	margin: 0px;
+	background-color: blue;
+	}
+	.b >#info1{	
+	background-color: yellow;
+	padding: 40px 10px 10px 10px;
+	}
+
+	.d {
+	border: 5px solid blue;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+		}
+	.d > #sec2{
+	border: 2px solid red;
+	width: 100px;
+	float: right;
+	margin: 0px;
+	background-color: blue;
+	}
+	.e >#info2{	
+	background-color: yellow;
+	padding: 40px 10px 10px 10px;
+	}
+
+	.f {
+	border: 5px solid blue;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	.f > #sec3{
+	border: 2px solid red;
+	width: 100px;
+	float: right;
+	margin: 0px;
+	background-color: blue;
+
+	}
+
+	.g >#info3{
+	
+	background-color: yellow;
+	padding: 40px 10px 10px 10px;
+
+	}
+
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+
+.col-lg-4{
+		float: left;
+		border:1px;
+	}
+	
+	.col-lg-4{
+		width: 33%;
+	}
+	.a {
+	border: 5px solid blue;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	.a > #sec1{
+	border: 2px solid red;
+	width: 100px;
+	float: right;
+	margin: 0px;
+	background-color: blue;
+	}
+	.b >#info1{	
+	background-color: yellow;
+	padding: 40px 10px 10px 10px;
+	}
+
+	.d {
+	border: 5px solid blue;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+		}
+	.d > #sec2{
+	border: 2px solid red;
+	width: 100px;
+	float: right;
+	margin: 0px;
+	background-color: blue;
+	}
+	.e >#info2{	
+	background-color: yellow;
+	padding: 40px 10px 10px 10px;
+	}
+
+	.f {
+	border: 5px solid blue;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	.f > #sec3{
+	border: 2px solid red;
+	width: 100px;
+	float: right;
+	margin: 0px;
+	background-color: blue;
+
+	}
+
+	.g >#info3{
+	
+	background-color: yellow;
+	padding: 40px 10px 10px 10px;
+
+	}
+
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+#collapsed-one {
+	content: center;
+	text-align: center;
+
+}
+
+
+.col-md-6{
+		float: left;
+		border:1px;
+		
+		
+	}
+	.col-md-6{
+		width: 50%;
+
+	}
+	
+	.a {
+	border: 5px solid blue;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	}
+	.a > #sec1{
+	border: 2px solid red;
+	width: 100px;
+	float: right;
+	margin: 0px;
+	background-color: blue;
+	}
+	.b >#info1{	
+	background-color: yellow;
+	padding: 40px 10px 10px 10px;
+	}
+
+	.d {
+	border: 5px solid blue;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+		}
+	.d > #sec2{
+	border: 2px solid red;
+	width: 100px;
+	float: right;
+	margin: 0px;
+	background-color: blue;
+	}
+	.e >#info2{	
+	background-color: yellow;
+	padding: 40px 10px 10px 10px;
+	}
+
+	.f {
+	border: 5px solid blue;
+	width: 785px;
+	
+	overflow: hidden;
+	margin-left: 85px;
+	margin-right: 75px;
+	}
+	.f > #sec3{
+	border: 2px solid red;
+	width: 100px;
+	float: right;
+	margin: 0px;
+	background-color: blue;
+
+	}
+
+	.g >#info3{
+	
+	background-color: yellow;
+	
+	padding: 40px 10px 10px 10px;
+
+	}
+
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  #collapsed-one {
+	content: center;
+	text-align: center;
+}
+#collapsable-nav{
+	text-align: center;
+}
+
+
+.col-sm-3{
+		float: left;
+		border:1px;
+		
+		
+	}
+	
+	.col-sm-4{
+		width: 33%;
+
+	}
+	.a {
+	border: 5px solid blue;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	}
+	.a > #sec1{
+	border: 2px solid red;
+	width: 100px;
+	float: right;
+	margin: 0px;
+	background-color: blue;
+	}
+	.b >#info1{	
+	background-color: yellow;
+	padding: 40px 10px 10px 10px;
+	}
+
+	.d {
+	border: 5px solid blue;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+		}
+	.d > #sec2{
+	border: 2px solid red;
+	width: 100px;
+	float: right;
+	margin: 0px;
+	background-color: blue;
+	}
+	.e >#info2{	
+	background-color: yellow;
+	padding: 40px 10px 10px 10px;
+	}
+
+	.f {
+	border: 5px solid blue;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	}
+	.f > #sec3{
+	border: 2px solid red;
+	width: 100px;
+	float: right;
+	margin: 0px;
+	background-color: blue;
+
+	}
+
+	.g >#info3{
+	
+	background-color: yellow;
+	padding: 40px 10px 10px 10px;
+
+	}
+}
+
+
+h1{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
